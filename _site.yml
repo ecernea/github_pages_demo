@@ -7,9 +7,19 @@ navbar:
     href: index.html
   - text: About
     href: about.html
+  right:
+  - icon: fa-envelope fa-lg
+    href: mailto:youremail@email.com
+  - icon: fa-github fa-lg
+    href: http://github.com/your_username
+  - icon: fa-twitter fa-lg
+    href: https://twitter.com/your_twitter_username
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/your_linkedin/
 output:
   html_document:
     theme: paper
+    css: 'style.css'
     lib_dir: site_libs
     self_contained: no
 
